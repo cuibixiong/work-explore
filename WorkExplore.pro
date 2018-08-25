@@ -5,7 +5,9 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
            mainwindow.cpp \
-           action.cpp
+           action.cpp \
+           workspace.cpp 
 
-HEADERS  += mainwindow.h 
-            action.h
+HEADERS  += mainwindow.h  \
+            action.h \
+            workspace.h 
